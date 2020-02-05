@@ -1,37 +1,42 @@
 package recipe.database.entities;
 
+import org.springframework.security.crypto.bcrypt.BCrypt;
+
 import javax.persistence.*;
+import javax.websocket.DecodeException;
 
 @Entity
-@Table(name = "users", uniqueConstraints = @UniqueConstraint(columnNames = {"ID_user"}))
+@Table(name = "user", uniqueConstraints = @UniqueConstraint(columnNames = {"user_id"}))
 public class User {
-
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    @Column(name = "ID_user", unique = true, nullable = false)
+    @Column(name = "user_id", unique = true, nullable = false)
     private int user_id;
 
-    @Column(name = "name")
+    @Column(name = "username")
     private String username;
 
     @Column(name = "password")
     private String password;
 
-    @Column(name = "prepered_dishes")
-    private int prepered_dishes;
+    @Column(name = "prepared_dishes")
+    private int prepared_dishes;
 
     @Column(name = "advancement_level")
     private int advancement_level;
 
     @ManyToOne
-    @JoinColumn(name = "favourite_dish_id", referencedColumnName = "ID_recipe")
+    @JoinColumn(name = "favourite_dish_id", referencedColumnName = "recipe_id")
     Recipe recipe;
 
     public User() {
     }
 
-    public User(String name) {
-        this.username = name;
+    public User(String username, String password) {
+        this.username = username;
+        this.password = BCrypt.hashpw(password, BCrypt.gensalt(12));
+        this.prepared_dishes = 0;
+        this.advancement_level = 1;
     }
 
     public int getUser_id() {
@@ -42,8 +47,8 @@ public class User {
         return username;
     }
 
-    public int getPrepered_dishes() {
-        return prepered_dishes;
+    public int getPrepared_dishes() {
+        return prepared_dishes;
     }
 
     public int getAdvancement_level() {
@@ -70,8 +75,8 @@ public class User {
         this.username = username;
     }
 
-    public void setPrepered_dishes(int prepered_dishes) {
-        this.prepered_dishes = prepered_dishes;
+    public void setPrepared_dishes(int prepered_dishes) {
+        this.prepared_dishes = prepered_dishes;
     }
 
     public void setAdvancement_level(int advancement_level) {
@@ -82,7 +87,7 @@ public class User {
         this.recipe = recipe;
     }
 
-    public boolean missNesesseryFields() {
-        return this.username == null || this.password == null;
+    public boolean checkPassword(String password) throws DecodeException {
+        return BCrypt.checkpw(password, this.password);
     }
 }

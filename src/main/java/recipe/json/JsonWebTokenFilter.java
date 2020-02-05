@@ -15,9 +15,9 @@ public class JsonWebTokenFilter implements javax.servlet.Filter {
         HttpServletRequest httpServletRequest = (HttpServletRequest) servletRequest;
         HttpServletResponse httpServletResponse = (HttpServletResponse) servletResponse;
 
-        String header = httpServletRequest.getHeader("autorization");
+        String header = httpServletRequest.getHeader("authorization");
         if (header == null || !header.startsWith("Bearer ")) {
-            httpServletResponse.sendError(HttpServletResponse.SC_UNAUTHORIZED);
+            httpServletResponse.sendError(HttpServletResponse.SC_UNAUTHORIZED, Responses.UNAUTHORIZED);
             return;
         }
         filterChain.doFilter(servletRequest, servletResponse);

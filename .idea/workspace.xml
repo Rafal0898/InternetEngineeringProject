@@ -1,7 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="98da4961-dac6-4f1a-b116-9358be23540a" name="Default Changelist" comment="" />
+    <list default="true" id="98da4961-dac6-4f1a-b116-9358be23540a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_auth0_java_jwt_3_8_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_3_1_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_5_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iiProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/iiProject.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/recipe/controller/IngredientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/recipe/controller/IngredientController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/recipe/controller/RecipeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/recipe/controller/RecipeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/recipe/controller/RecipeStepController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/recipe/controller/RecipeStepController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/recipe/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/recipe/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/recipe/database/entities/Ingredient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/recipe/database/entities/Ingredient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/recipe/database/entities/Recipe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/recipe/database/entities/Recipe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/recipe/database/entities/RecipeStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/recipe/database/entities/RecipeStep.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/recipe/database/entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/recipe/database/entities/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/recipe/database/repositories/IngredientRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/recipe/database/repositories/IngredientRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/recipe/database/repositories/RecipeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/recipe/database/repositories/RecipeRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/recipe/database/repositories/RecipeStepRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/recipe/database/repositories/RecipeStepRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/recipe/database/repositories/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/recipe/database/repositories/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/recipe/json/JsonWebTokenFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/recipe/json/JsonWebTokenFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/recipe/json/JsonWebTokenUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/recipe/json/JsonWebTokenUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/recipe/json/Responses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/recipe/json/Responses.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/iiProject.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/recipe/controller/IngredientController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/recipe/controller/IngredientController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/recipe/controller/RecipeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/recipe/controller/RecipeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/recipe/controller/RecipeStepController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/recipe/controller/RecipeStepController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/recipe/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/recipe/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/recipe/database/entities/Ingredient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/recipe/database/entities/Ingredient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/recipe/database/entities/Recipe$preparing_dificulty.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/recipe/database/entities/Recipe.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/recipe/database/entities/Recipe.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/recipe/database/entities/RecipeStep.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/recipe/database/entities/RecipeStep.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/recipe/database/entities/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/recipe/database/entities/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/recipe/database/repositories/IngredientRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/recipe/database/repositories/IngredientRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/recipe/database/repositories/RecipeRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/recipe/database/repositories/RecipeRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/recipe/database/repositories/RecipeStepRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/recipe/database/repositories/RecipeStepRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/recipe/database/repositories/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/recipe/database/repositories/UserRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/recipe/json/JsonWebTokenFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/recipe/json/JsonWebTokenFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/recipe/json/JsonWebTokenUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/recipe/json/JsonWebTokenUtils.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,6 +60,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -27,6 +71,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1X1ddrhuJSiuPNns1r0zPEM0Au4" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -39,10 +84,11 @@
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../internetEngineering-master/internetEngineering-master" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -102,12 +148,17 @@
     <option name="viewStates">
       <list>
         <serviceView>
-          <option name="contentProportion" value="0.013921114" />
+          <option name="contentProportion" value="0.09357923" />
           <treeState>
             <expand>
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
             </expand>
             <select />
@@ -137,7 +188,11 @@
       <workItem from="1580495830164" duration="3939000" />
       <workItem from="1580499816895" duration="10203000" />
       <workItem from="1580542967320" duration="29428000" />
-      <workItem from="1580634722248" duration="1086000" />
+      <workItem from="1580634722248" duration="1404000" />
+      <workItem from="1580637708198" duration="8410000" />
+      <workItem from="1580757055032" duration="147000" />
+      <workItem from="1580809923125" duration="34911000" />
+      <workItem from="1580896928746" duration="8635000" />
     </task>
     <servers />
   </component>
@@ -185,70 +240,88 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="479" y="229" width="408" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.738/1366.0.1536.834@0.0.1366.738" timestamp="1580543772100" />
-    <state x="434" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1580498754445">
-      <screen x="0" y="0" width="1366" height="738" />
+    <state x="1919" y="249" key="#com.intellij.refactoring.move.moveInstanceMethod.MoveInstanceMethodDialog" timestamp="1580834214585">
+      <screen x="1366" y="0" width="1536" height="834" />
+    </state>
+    <state x="1919" y="249" key="#com.intellij.refactoring.move.moveInstanceMethod.MoveInstanceMethodDialog/0.0.1366.738/1366.0.1536.834@1366.0.1536.834" timestamp="1580834214585" />
+    <state x="1741" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1580843244758">
+      <screen x="1366" y="0" width="1536" height="834" />
     </state>
     <state x="434" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.738/1366.0.1536.834@0.0.1366.738" timestamp="1580498754445" />
-    <state x="600" y="110" key="FileChooserDialogImpl" timestamp="1580496729284">
-      <screen x="0" y="0" width="1366" height="738" />
+    <state x="1741" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.738/1366.0.1536.834@1366.0.1536.834" timestamp="1580843244758" />
+    <state x="2041" y="124" key="FileChooserDialogImpl" timestamp="1580661685028">
+      <screen x="1366" y="0" width="1536" height="834" />
     </state>
     <state x="600" y="110" key="FileChooserDialogImpl/0.0.1366.738/1366.0.1536.834@0.0.1366.738" timestamp="1580496729284" />
-    <state width="1275" height="47" key="GridCell.Tab.0.bottom" timestamp="1580589950554">
+    <state x="2041" y="124" key="FileChooserDialogImpl/0.0.1366.738/1366.0.1536.834@1366.0.1536.834" timestamp="1580661685028" />
+    <state width="1172" height="90" key="GridCell.Tab.0.bottom" timestamp="1580906260176">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1275" height="47" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.0.1536.834@0.0.1366.738" timestamp="1580589950554" />
-    <state width="501" height="214" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.0.1536.834@1366.0.1536.834" timestamp="1580219814586" />
-    <state width="1275" height="47" key="GridCell.Tab.0.center" timestamp="1580589950538">
+    <state width="1172" height="90" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.0.1536.834@0.0.1366.738" timestamp="1580906260176" />
+    <state width="1326" height="198" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.0.1536.834@1366.0.1536.834" timestamp="1580905642281" />
+    <state width="1214" height="171" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1580757233280" />
+    <state width="1172" height="90" key="GridCell.Tab.0.center" timestamp="1580906260176">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1275" height="47" key="GridCell.Tab.0.center/0.0.1366.738/1366.0.1536.834@0.0.1366.738" timestamp="1580589950538" />
-    <state width="501" height="214" key="GridCell.Tab.0.center/0.0.1366.738/1366.0.1536.834@1366.0.1536.834" timestamp="1580219814571" />
-    <state width="1275" height="47" key="GridCell.Tab.0.left" timestamp="1580589950538">
+    <state width="1172" height="90" key="GridCell.Tab.0.center/0.0.1366.738/1366.0.1536.834@0.0.1366.738" timestamp="1580906260176" />
+    <state width="1326" height="198" key="GridCell.Tab.0.center/0.0.1366.738/1366.0.1536.834@1366.0.1536.834" timestamp="1580905642281" />
+    <state width="1214" height="171" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1580757233280" />
+    <state width="1172" height="90" key="GridCell.Tab.0.left" timestamp="1580906260176">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1275" height="47" key="GridCell.Tab.0.left/0.0.1366.738/1366.0.1536.834@0.0.1366.738" timestamp="1580589950538" />
-    <state width="501" height="214" key="GridCell.Tab.0.left/0.0.1366.738/1366.0.1536.834@1366.0.1536.834" timestamp="1580219814571" />
-    <state width="1275" height="47" key="GridCell.Tab.0.right" timestamp="1580589950554">
+    <state width="1172" height="90" key="GridCell.Tab.0.left/0.0.1366.738/1366.0.1536.834@0.0.1366.738" timestamp="1580906260176" />
+    <state width="1326" height="198" key="GridCell.Tab.0.left/0.0.1366.738/1366.0.1536.834@1366.0.1536.834" timestamp="1580905642281" />
+    <state width="1214" height="171" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1580757233280" />
+    <state width="1172" height="90" key="GridCell.Tab.0.right" timestamp="1580906260176">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1275" height="47" key="GridCell.Tab.0.right/0.0.1366.738/1366.0.1536.834@0.0.1366.738" timestamp="1580589950554" />
-    <state width="501" height="214" key="GridCell.Tab.0.right/0.0.1366.738/1366.0.1536.834@1366.0.1536.834" timestamp="1580219814586" />
-    <state width="1275" height="47" key="GridCell.Tab.1.bottom" timestamp="1580589950554">
+    <state width="1172" height="90" key="GridCell.Tab.0.right/0.0.1366.738/1366.0.1536.834@0.0.1366.738" timestamp="1580906260176" />
+    <state width="1326" height="198" key="GridCell.Tab.0.right/0.0.1366.738/1366.0.1536.834@1366.0.1536.834" timestamp="1580905642281" />
+    <state width="1214" height="171" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1580757233280" />
+    <state width="1172" height="90" key="GridCell.Tab.1.bottom" timestamp="1580906260176">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1275" height="47" key="GridCell.Tab.1.bottom/0.0.1366.738/1366.0.1536.834@0.0.1366.738" timestamp="1580589950554" />
-    <state width="501" height="214" key="GridCell.Tab.1.bottom/0.0.1366.738/1366.0.1536.834@1366.0.1536.834" timestamp="1580219814586" />
-    <state width="1275" height="47" key="GridCell.Tab.1.center" timestamp="1580589950554">
+    <state width="1172" height="90" key="GridCell.Tab.1.bottom/0.0.1366.738/1366.0.1536.834@0.0.1366.738" timestamp="1580906260176" />
+    <state width="1326" height="198" key="GridCell.Tab.1.bottom/0.0.1366.738/1366.0.1536.834@1366.0.1536.834" timestamp="1580905642281" />
+    <state width="1214" height="171" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1580757233280" />
+    <state width="1172" height="90" key="GridCell.Tab.1.center" timestamp="1580906260176">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1275" height="47" key="GridCell.Tab.1.center/0.0.1366.738/1366.0.1536.834@0.0.1366.738" timestamp="1580589950554" />
-    <state width="501" height="214" key="GridCell.Tab.1.center/0.0.1366.738/1366.0.1536.834@1366.0.1536.834" timestamp="1580219814586" />
-    <state width="1275" height="47" key="GridCell.Tab.1.left" timestamp="1580589950554">
+    <state width="1172" height="90" key="GridCell.Tab.1.center/0.0.1366.738/1366.0.1536.834@0.0.1366.738" timestamp="1580906260176" />
+    <state width="1326" height="198" key="GridCell.Tab.1.center/0.0.1366.738/1366.0.1536.834@1366.0.1536.834" timestamp="1580905642281" />
+    <state width="1214" height="171" key="GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738" timestamp="1580757233280" />
+    <state width="1172" height="90" key="GridCell.Tab.1.left" timestamp="1580906260176">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1275" height="47" key="GridCell.Tab.1.left/0.0.1366.738/1366.0.1536.834@0.0.1366.738" timestamp="1580589950554" />
-    <state width="501" height="214" key="GridCell.Tab.1.left/0.0.1366.738/1366.0.1536.834@1366.0.1536.834" timestamp="1580219814586" />
-    <state width="1275" height="47" key="GridCell.Tab.1.right" timestamp="1580589950554">
+    <state width="1172" height="90" key="GridCell.Tab.1.left/0.0.1366.738/1366.0.1536.834@0.0.1366.738" timestamp="1580906260176" />
+    <state width="1326" height="198" key="GridCell.Tab.1.left/0.0.1366.738/1366.0.1536.834@1366.0.1536.834" timestamp="1580905642281" />
+    <state width="1214" height="171" key="GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738" timestamp="1580757233280" />
+    <state width="1172" height="90" key="GridCell.Tab.1.right" timestamp="1580906260176">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1275" height="47" key="GridCell.Tab.1.right/0.0.1366.738/1366.0.1536.834@0.0.1366.738" timestamp="1580589950554" />
-    <state width="501" height="214" key="GridCell.Tab.1.right/0.0.1366.738/1366.0.1536.834@1366.0.1536.834" timestamp="1580219814586" />
-    <state width="1275" height="217" key="GridCell.Tab.2.bottom" timestamp="1580561532625">
-      <screen x="0" y="0" width="1366" height="738" />
+    <state width="1172" height="90" key="GridCell.Tab.1.right/0.0.1366.738/1366.0.1536.834@0.0.1366.738" timestamp="1580906260176" />
+    <state width="1326" height="198" key="GridCell.Tab.1.right/0.0.1366.738/1366.0.1536.834@1366.0.1536.834" timestamp="1580905642281" />
+    <state width="1214" height="171" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1580757233280" />
+    <state width="1326" height="319" key="GridCell.Tab.2.bottom" timestamp="1580844765684">
+      <screen x="1366" y="0" width="1536" height="834" />
     </state>
-    <state width="1275" height="217" key="GridCell.Tab.2.bottom/0.0.1366.738/1366.0.1536.834@0.0.1366.738" timestamp="1580561532625" />
-    <state width="1275" height="217" key="GridCell.Tab.2.center" timestamp="1580561532625">
-      <screen x="0" y="0" width="1366" height="738" />
+    <state width="1214" height="225" key="GridCell.Tab.2.bottom/0.0.1366.738/1366.0.1536.834@0.0.1366.738" timestamp="1580814975370" />
+    <state width="1326" height="319" key="GridCell.Tab.2.bottom/0.0.1366.738/1366.0.1536.834@1366.0.1536.834" timestamp="1580844765684" />
+    <state width="1326" height="319" key="GridCell.Tab.2.center" timestamp="1580844765684">
+      <screen x="1366" y="0" width="1536" height="834" />
     </state>
-    <state width="1275" height="217" key="GridCell.Tab.2.center/0.0.1366.738/1366.0.1536.834@0.0.1366.738" timestamp="1580561532625" />
-    <state width="1275" height="217" key="GridCell.Tab.2.left" timestamp="1580561532625">
-      <screen x="0" y="0" width="1366" height="738" />
+    <state width="1214" height="225" key="GridCell.Tab.2.center/0.0.1366.738/1366.0.1536.834@0.0.1366.738" timestamp="1580814975370" />
+    <state width="1326" height="319" key="GridCell.Tab.2.center/0.0.1366.738/1366.0.1536.834@1366.0.1536.834" timestamp="1580844765684" />
+    <state width="1326" height="319" key="GridCell.Tab.2.left" timestamp="1580844765684">
+      <screen x="1366" y="0" width="1536" height="834" />
     </state>
-    <state width="1275" height="217" key="GridCell.Tab.2.left/0.0.1366.738/1366.0.1536.834@0.0.1366.738" timestamp="1580561532625" />
-    <state width="1275" height="217" key="GridCell.Tab.2.right" timestamp="1580561532625">
-      <screen x="0" y="0" width="1366" height="738" />
+    <state width="1214" height="225" key="GridCell.Tab.2.left/0.0.1366.738/1366.0.1536.834@0.0.1366.738" timestamp="1580814975370" />
+    <state width="1326" height="319" key="GridCell.Tab.2.left/0.0.1366.738/1366.0.1536.834@1366.0.1536.834" timestamp="1580844765684" />
+    <state width="1326" height="319" key="GridCell.Tab.2.right" timestamp="1580844765684">
+      <screen x="1366" y="0" width="1536" height="834" />
     </state>
-    <state width="1275" height="217" key="GridCell.Tab.2.right/0.0.1366.738/1366.0.1536.834@0.0.1366.738" timestamp="1580561532625" />
+    <state width="1214" height="225" key="GridCell.Tab.2.right/0.0.1366.738/1366.0.1536.834@0.0.1366.738" timestamp="1580814975370" />
+    <state width="1326" height="319" key="GridCell.Tab.2.right/0.0.1366.738/1366.0.1536.834@1366.0.1536.834" timestamp="1580844765684" />
     <state x="213" y="25" key="Maven.ArtifactSearchDialog" timestamp="1580550799644">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -258,21 +331,34 @@
     </state>
     <state x="246" y="0" key="SettingsEditor/0.0.1366.738/1366.0.1536.834@0.0.1366.738" timestamp="1580496464859" />
     <state x="1643" y="0" key="SettingsEditor/0.0.1366.738/1366.0.1536.834@1366.0.1536.834" timestamp="1580219784115" />
-    <state x="379" y="194" key="com.intellij.ide.util.TipDialog" timestamp="1580634720995">
+    <state x="379" y="194" key="com.intellij.ide.util.TipDialog" timestamp="1580897254783">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="379" y="194" key="com.intellij.ide.util.TipDialog/0.0.1366.738/1366.0.1536.834@0.0.1366.738" timestamp="1580634720995" />
-    <state x="120" y="132" width="1182" height="554" key="dock-window-1" timestamp="1580217701782">
-      <screen x="0" y="0" width="1366" height="738" />
+    <state x="379" y="194" key="com.intellij.ide.util.TipDialog/0.0.1366.738/1366.0.1536.834@0.0.1366.738" timestamp="1580637714660" />
+    <state x="379" y="194" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1580897254783" />
+    <state x="1388" y="-13" width="1200" height="587" maximized="true" key="dock-window-1" timestamp="1580899791376">
+      <screen x="1366" y="0" width="1536" height="834" />
     </state>
-    <state x="120" y="132" width="1182" height="554" key="dock-window-1/0.0.1366.738/1366.0.1536.834@0.0.1366.738" timestamp="1580217701782" />
-    <state x="389" y="0" key="refactoring.ChangeSignatureDialog" timestamp="1580581890360">
-      <screen x="0" y="0" width="1366" height="738" />
+    <state x="1388" y="-13" width="1200" height="587" maximized="true" key="dock-window-1/0.0.1366.738/1366.0.1536.834@0.0.1366.738" timestamp="1580899791376" />
+    <state x="1662" y="127" width="1028" height="545" maximized="true" key="dock-window-2" timestamp="1580901790748">
+      <screen x="1366" y="0" width="1536" height="834" />
+    </state>
+    <state x="1662" y="127" width="1028" height="545" maximized="true" key="dock-window-2/0.0.1366.738/1366.0.1536.834@0.0.1366.738" timestamp="1580901790748" />
+    <state x="1803" y="0" key="refactoring.ChangeSignatureDialog" timestamp="1580820646762">
+      <screen x="1366" y="0" width="1536" height="834" />
     </state>
     <state x="389" y="0" key="refactoring.ChangeSignatureDialog/0.0.1366.738/1366.0.1536.834@0.0.1366.738" timestamp="1580581890360" />
-    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1580498919853">
+    <state x="1803" y="0" key="refactoring.ChangeSignatureDialog/0.0.1366.738/1366.0.1536.834@1366.0.1536.834" timestamp="1580820646762" />
+    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1580899858057">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup/0.0.1366.738/1366.0.1536.834@0.0.1366.738" timestamp="1580498919853" />
+    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup/0.0.1366.738/1366.0.1536.834@0.0.1366.738" timestamp="1580899858057" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="SpringBootApplicationConfigurationType">
+        <watch expression="userList" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

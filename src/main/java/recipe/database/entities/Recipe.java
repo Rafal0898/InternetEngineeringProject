@@ -6,29 +6,34 @@ import java.util.Set;
 import javax.persistence.*;
 
 @Entity
-@Table(name = "recipe", uniqueConstraints=@UniqueConstraint(columnNames = {"ID_recipe"}))
+@Table(name = "recipe", uniqueConstraints = @UniqueConstraint(columnNames = {"recipe_id"}))
 public class Recipe {
     @Id
-    @GeneratedValue(strategy= GenerationType.AUTO)
-    @JoinColumn(name = "ID_recipe", unique=true, nullable = false)
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    @JoinColumn(name = "recipe_id", unique = true, nullable = false)
     private int recipe_id;
 
     @Column(name = "dish_name")
     private String dish_name;
 
     @ManyToMany(fetch = FetchType.EAGER)
-    @JoinTable(name="all_ingredients_in_recipe", joinColumns = @JoinColumn(name = "recipe"), inverseJoinColumns = @JoinColumn(name = "ingredient"))
+    @JoinTable(name = "all_ingredients_in_recipe", joinColumns = @JoinColumn(name = "recipe"), inverseJoinColumns = @JoinColumn(name = "ingredient"))
     Set<Ingredient> ingredients = new HashSet<>();
 
     @Column(name = "average_time")
     private int average_time;
 
-    public enum preparing_dificulty { easy, medium, hard }
     @Column(name = "preparing_difficulty")
-    preparing_dificulty preparing_dificulty;
+    int preparing_difficulty;
 
+    public Recipe() {
+    }
 
-    public Recipe(){}
+    public Recipe(String dish_name, int average_time, int preparing_difficulty) {
+        this.dish_name = dish_name;
+        this.average_time = average_time;
+        this.preparing_difficulty = preparing_difficulty;
+    }
 
     public int getRecipe_id() {
         return recipe_id;
@@ -46,8 +51,8 @@ public class Recipe {
         return average_time;
     }
 
-    public Recipe.preparing_dificulty getPreparing_dificulty() {
-        return preparing_dificulty;
+    public int getPreparing_difficulty() {
+        return preparing_difficulty;
     }
 
     public void setRecipe_id(Integer recipe_id) {
@@ -66,10 +71,7 @@ public class Recipe {
         this.average_time = average_time;
     }
 
-    public void setPreparing_dificulty(Recipe.preparing_dificulty preparing_dificulty) {
-        this.preparing_dificulty = preparing_dificulty;
-    }
-    public boolean missNesesseryFields(){
-        return this.dish_name == null;
+    public void setPreparing_difficulty(int preparing_difficulty) {
+        this.preparing_difficulty = preparing_difficulty;
     }
 }

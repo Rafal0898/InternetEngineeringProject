@@ -17,14 +17,14 @@ import javax.persistence.Table;
 import javax.persistence.UniqueConstraint;
 
 @Entity
-@Table(name = "recipe_step", uniqueConstraints = @UniqueConstraint(columnNames = {"ID_recipe_step"}))
+@Table(name = "recipe_step", uniqueConstraints = @UniqueConstraint(columnNames = {"recipe_step_id"}))
 
 public class RecipeStep {
 
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    @Column(name = "ID_recipe_step", unique = true, nullable = false)
+    @Column(name = "recipe_step_id", unique = true, nullable = false)
     private int recipe_step_id;
 
     @Column(name = "description")
@@ -33,16 +33,23 @@ public class RecipeStep {
     @Column(name = "time")
     private int time;
 
+
     @ManyToMany(fetch = FetchType.EAGER)
     @JoinTable(name = "all_ingredients", joinColumns = @JoinColumn(name = "recipe_step"), inverseJoinColumns = @JoinColumn(name = "ingredient"))
     Set<Ingredient> ingredients = new HashSet<>();
 
     @ManyToOne
-    @JoinColumn(name = "recipe_id", referencedColumnName = "ID_recipe")
+    @JoinColumn(name = "recipe_id", referencedColumnName = "recipe_id")
     Recipe recipe;
 
 
     public RecipeStep() {
+    }
+
+    public RecipeStep(String description, int time, Recipe recipe) {
+        this.description = description;
+        this.time = time;
+        this.recipe = recipe;
     }
 
     public void setRecipe_step_id(Integer recipe_step_id) {
@@ -53,7 +60,7 @@ public class RecipeStep {
         this.description = description;
     }
 
-    public void setTime(int time) {
+    public void setTime(Integer time) {
         this.time = time;
     }
 
@@ -74,16 +81,11 @@ public class RecipeStep {
         return description;
     }
 
-    public int getTime() {
+    public Integer getTime() {
         return time;
     }
 
     public Recipe getRecipe() {
         return recipe;
     }
-
-    public boolean missNesesseryFields() {
-        return this.description == null || this.recipe == null;
-    }
-
 }
