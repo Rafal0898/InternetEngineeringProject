@@ -87,6 +87,9 @@ public class RecipeStepController {
             Map<String, String> bodyContent = (Map<String, String>) parser.parse();
             String description = bodyContent.get("description");
             int time = Integer.parseInt(bodyContent.get("time"));
+            if (description == null) {
+                return new ResponseEntity<>(Responses.INVALID_VALUE, HttpStatus.BAD_REQUEST);
+            }
             if (time < 0) {
                 return new ResponseEntity<>(Responses.INVALID_VALUE + " Time can't be less than 0", HttpStatus.BAD_REQUEST);
             }

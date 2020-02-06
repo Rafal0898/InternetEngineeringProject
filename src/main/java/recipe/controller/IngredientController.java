@@ -61,6 +61,9 @@ public class IngredientController {
             Map<String, String> bodyContent = (Map<String, String>) parser.parse();
             String ingredientName = bodyContent.get("ingredientName");
             boolean ifVegan = Boolean.parseBoolean(bodyContent.get("ifVegan"));
+            if (ingredientName == null) {
+                return new ResponseEntity<>(Responses.INVALID_VALUE, HttpStatus.BAD_REQUEST);
+            }
             Ingredient ingredient = ingredientRepository.getIngredientByIngredient_name(ingredientName);
             if (ingredient != null) {
                 return new ResponseEntity<>(Responses.ALREADY_EXIST, HttpStatus.CONFLICT);
@@ -87,6 +90,9 @@ public class IngredientController {
             Map<String, String> bodyContent = (Map<String, String>) parser.parse();
             String ingredientName = bodyContent.get("ingredientName");
             boolean ifVegan = Boolean.parseBoolean(bodyContent.get("ifVegan"));
+            if (ingredientName == null) {
+                return new ResponseEntity<>(Responses.INVALID_VALUE, HttpStatus.BAD_REQUEST);
+            }
             Ingredient ingredient = ingredientRepository.getIngredientByIngredient_name(ingredientName);
             if (ingredient != null && !ingredient.getIngredient_name().equals(ingredientById.getIngredient_name())) {
                 return new ResponseEntity<>(Responses.ALREADY_EXIST, HttpStatus.CONFLICT);

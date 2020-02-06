@@ -64,7 +64,7 @@ public class UserController {
             }
             if (user.checkPassword(password)) {
                 String token = JsonWebTokenUtils.getJsonWebToken(user);
-                return new ResponseEntity<>(token, HttpStatus.OK);
+                return new ResponseEntity<>("200. You are logged in\n" + token, HttpStatus.OK);
             }
             return new ResponseEntity<>(Responses.UNAUTHORIZED, HttpStatus.UNAUTHORIZED);
         } catch (ParseException e) {

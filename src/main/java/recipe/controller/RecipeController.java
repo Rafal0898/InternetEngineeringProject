@@ -85,6 +85,12 @@ public class RecipeController {
             String dishName = bodyContent.get("dishName");
             int averageTime = Integer.parseInt(bodyContent.get("averageTime"));
             int preparingDifficulty = Integer.parseInt(bodyContent.get("preparingDifficulty"));
+            if (dishName == null) {
+                return new ResponseEntity<>(Responses.INVALID_VALUE, HttpStatus.BAD_REQUEST);
+            }
+            if (averageTime < 1) {
+                return new ResponseEntity<>(Responses.INVALID_VALUE + " Average time must be greater than 1", HttpStatus.BAD_REQUEST);
+            }
             if (preparingDifficulty < 1 || preparingDifficulty > 10) {
                 return new ResponseEntity<>("Preparing difficulty should be between 1 and 10", HttpStatus.BAD_REQUEST);
             }
@@ -115,6 +121,9 @@ public class RecipeController {
             String dishName = bodyContent.get("dishName");
             int averageTime = Integer.parseInt(bodyContent.get("averageTime"));
             int preparingDifficulty = Integer.parseInt(bodyContent.get("preparingDifficulty"));
+            if (dishName == null) {
+                return new ResponseEntity<>(Responses.INVALID_VALUE, HttpStatus.BAD_REQUEST);
+            }
             if (averageTime < 1) {
                 return new ResponseEntity<>(Responses.INVALID_VALUE + " Average time must be greater than 1", HttpStatus.BAD_REQUEST);
             }
