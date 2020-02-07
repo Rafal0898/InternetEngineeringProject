@@ -2,29 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="98da4961-dac6-4f1a-b116-9358be23540a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_2_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_2_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_1_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_3_2_RELEASE.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/iiProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/iiProject.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/recipe/controller/IngredientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/recipe/controller/IngredientController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/recipe/controller/RecipeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/recipe/controller/RecipeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/recipe/controller/RecipeStepController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/recipe/controller/RecipeStepController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/recipe/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/recipe/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/recipe/json/JsonWebTokenFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/recipe/json/JsonWebTokenFilter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/recipe/json/JsonWebTokenUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/recipe/json/JsonWebTokenUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/recipe/json/Responses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/recipe/json/Responses.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/edu/Ciesla/RecipeAPITests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/recipe/controller/IngredientController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/recipe/controller/IngredientController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/recipe/controller/RecipeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/recipe/controller/RecipeController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/recipe/controller/RecipeStepController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/recipe/controller/RecipeStepController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/recipe/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/recipe/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/recipe/json/JsonWebTokenFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/recipe/json/JsonWebTokenFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/recipe/json/JsonWebTokenUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/recipe/json/JsonWebTokenUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/recipe/json/Responses.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/recipe/json/Responses.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/edu/Ciesla/RecipeAPITests.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +23,7 @@
         <option value="FxmlFile" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="Arquillian TestNG Test Class" />
       </list>
     </option>
   </component>
@@ -71,6 +55,8 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian TestNG" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian TestNG" value="org.jboss.arquillian.testng.Arquillian" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../internetEngineering-master/internetEngineering-master" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -81,6 +67,12 @@
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="recipe.controller" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="org.jboss.arquillian.testng.Arquillian" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="recipe.Json" />
     </key>
@@ -93,6 +85,53 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.RecipeAPI">
+    <configuration name="IngredientControllerIntegrationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="iiProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="recipe.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="recipe.controller" />
+      <option name="MAIN_CLASS_NAME" value="recipe.controller.IngredientControllerIntegrationTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IngredientControllerIntegrationTest.givenWac_whenServletContext_thenItProvidesGreetController" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="iiProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="recipe.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="recipe.controller" />
+      <option name="MAIN_CLASS_NAME" value="recipe.controller.IngredientControllerIntegrationTest" />
+      <option name="METHOD_NAME" value="givenWac_whenServletContext_thenItProvidesGreetController" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IngredientControllerIntegrationTest.givenWac_whenServletContext_thenItProvidesIngredientController" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="iiProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="recipe.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="recipe.controller" />
+      <option name="MAIN_CLASS_NAME" value="recipe.controller.IngredientControllerIntegrationTest" />
+      <option name="METHOD_NAME" value="givenWac_whenServletContext_thenItProvidesIngredientController" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="iiProject" />
       <extension name="coverage">
@@ -124,6 +163,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.RecipeAPI" />
+        <item itemvalue="JUnit.IngredientControllerIntegrationTest.givenWac_whenServletContext_thenItProvidesIngredientController" />
+        <item itemvalue="JUnit.IngredientControllerIntegrationTest.givenWac_whenServletContext_thenItProvidesGreetController" />
+        <item itemvalue="JUnit.IngredientControllerIntegrationTest" />
       </list>
     </recent_temporary>
   </component>
@@ -141,7 +183,7 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
             </expand>
             <select />
@@ -176,7 +218,8 @@
       <workItem from="1580757055032" duration="147000" />
       <workItem from="1580809923125" duration="34911000" />
       <workItem from="1580896928746" duration="9005000" />
-      <workItem from="1580982589918" duration="9366000" />
+      <workItem from="1580982589918" duration="12585000" />
+      <workItem from="1581078438927" duration="2950000" />
     </task>
     <servers />
   </component>
@@ -200,10 +243,11 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="275" y="28" key="#Notifications/0.0.1366.738/1366.0.1536.834@0.0.1366.738" timestamp="1580495204014" />
-    <state x="274" y="24" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580495667527">
+    <state x="274" y="24" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581078631022">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="274" y="24" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738/1366.0.1536.834@0.0.1366.738" timestamp="1580495667527" />
+    <state x="274" y="24" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738@0.0.1366.738" timestamp="1581078631022" />
     <state x="488" y="62" key="#com.intellij.ide.util.MemberChooser" timestamp="1580552306449">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -238,54 +282,54 @@
     </state>
     <state x="600" y="110" key="FileChooserDialogImpl/0.0.1366.738/1366.0.1536.834@0.0.1366.738" timestamp="1580496729284" />
     <state x="2041" y="124" key="FileChooserDialogImpl/0.0.1366.738/1366.0.1536.834@1366.0.1536.834" timestamp="1580661685028" />
-    <state width="1326" height="168" key="GridCell.Tab.0.bottom" timestamp="1580989011830">
-      <screen x="1366" y="0" width="1536" height="834" />
+    <state width="1172" height="178" key="GridCell.Tab.0.bottom" timestamp="1581081329606">
+      <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1172" height="286" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.0.1536.834@0.0.1366.738" timestamp="1580906633555" />
+    <state width="1172" height="178" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.0.1536.834@0.0.1366.738" timestamp="1581081329606" />
     <state width="1326" height="168" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.0.1536.834@1366.0.1536.834" timestamp="1580989011830" />
-    <state width="1214" height="171" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1580757233280" />
-    <state width="1326" height="168" key="GridCell.Tab.0.center" timestamp="1580989011830">
-      <screen x="1366" y="0" width="1536" height="834" />
+    <state width="1172" height="121" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1581078950192" />
+    <state width="1172" height="178" key="GridCell.Tab.0.center" timestamp="1581081329606">
+      <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1172" height="286" key="GridCell.Tab.0.center/0.0.1366.738/1366.0.1536.834@0.0.1366.738" timestamp="1580906633555" />
+    <state width="1172" height="178" key="GridCell.Tab.0.center/0.0.1366.738/1366.0.1536.834@0.0.1366.738" timestamp="1581081329606" />
     <state width="1326" height="168" key="GridCell.Tab.0.center/0.0.1366.738/1366.0.1536.834@1366.0.1536.834" timestamp="1580989011830" />
-    <state width="1214" height="171" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1580757233280" />
-    <state width="1326" height="168" key="GridCell.Tab.0.left" timestamp="1580989011830">
-      <screen x="1366" y="0" width="1536" height="834" />
+    <state width="1172" height="121" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1581078950192" />
+    <state width="1172" height="178" key="GridCell.Tab.0.left" timestamp="1581081329606">
+      <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1172" height="286" key="GridCell.Tab.0.left/0.0.1366.738/1366.0.1536.834@0.0.1366.738" timestamp="1580906633555" />
+    <state width="1172" height="178" key="GridCell.Tab.0.left/0.0.1366.738/1366.0.1536.834@0.0.1366.738" timestamp="1581081329606" />
     <state width="1326" height="168" key="GridCell.Tab.0.left/0.0.1366.738/1366.0.1536.834@1366.0.1536.834" timestamp="1580989011830" />
-    <state width="1214" height="171" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1580757233280" />
-    <state width="1326" height="168" key="GridCell.Tab.0.right" timestamp="1580989011830">
-      <screen x="1366" y="0" width="1536" height="834" />
+    <state width="1172" height="121" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1581078950192" />
+    <state width="1172" height="178" key="GridCell.Tab.0.right" timestamp="1581081329606">
+      <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1172" height="286" key="GridCell.Tab.0.right/0.0.1366.738/1366.0.1536.834@0.0.1366.738" timestamp="1580906633555" />
+    <state width="1172" height="178" key="GridCell.Tab.0.right/0.0.1366.738/1366.0.1536.834@0.0.1366.738" timestamp="1581081329606" />
     <state width="1326" height="168" key="GridCell.Tab.0.right/0.0.1366.738/1366.0.1536.834@1366.0.1536.834" timestamp="1580989011830" />
-    <state width="1214" height="171" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1580757233280" />
-    <state width="1326" height="168" key="GridCell.Tab.1.bottom" timestamp="1580989011830">
-      <screen x="1366" y="0" width="1536" height="834" />
+    <state width="1172" height="121" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1581078950192" />
+    <state width="1172" height="178" key="GridCell.Tab.1.bottom" timestamp="1581081329606">
+      <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1172" height="286" key="GridCell.Tab.1.bottom/0.0.1366.738/1366.0.1536.834@0.0.1366.738" timestamp="1580906633555" />
+    <state width="1172" height="178" key="GridCell.Tab.1.bottom/0.0.1366.738/1366.0.1536.834@0.0.1366.738" timestamp="1581081329606" />
     <state width="1326" height="168" key="GridCell.Tab.1.bottom/0.0.1366.738/1366.0.1536.834@1366.0.1536.834" timestamp="1580989011830" />
-    <state width="1214" height="171" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1580757233280" />
-    <state width="1326" height="168" key="GridCell.Tab.1.center" timestamp="1580989011830">
-      <screen x="1366" y="0" width="1536" height="834" />
+    <state width="1172" height="121" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1581078950192" />
+    <state width="1172" height="178" key="GridCell.Tab.1.center" timestamp="1581081329606">
+      <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1172" height="286" key="GridCell.Tab.1.center/0.0.1366.738/1366.0.1536.834@0.0.1366.738" timestamp="1580906633555" />
+    <state width="1172" height="178" key="GridCell.Tab.1.center/0.0.1366.738/1366.0.1536.834@0.0.1366.738" timestamp="1581081329606" />
     <state width="1326" height="168" key="GridCell.Tab.1.center/0.0.1366.738/1366.0.1536.834@1366.0.1536.834" timestamp="1580989011830" />
-    <state width="1214" height="171" key="GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738" timestamp="1580757233280" />
-    <state width="1326" height="168" key="GridCell.Tab.1.left" timestamp="1580989011830">
-      <screen x="1366" y="0" width="1536" height="834" />
+    <state width="1172" height="121" key="GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738" timestamp="1581078950192" />
+    <state width="1172" height="178" key="GridCell.Tab.1.left" timestamp="1581081329606">
+      <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1172" height="286" key="GridCell.Tab.1.left/0.0.1366.738/1366.0.1536.834@0.0.1366.738" timestamp="1580906633555" />
+    <state width="1172" height="178" key="GridCell.Tab.1.left/0.0.1366.738/1366.0.1536.834@0.0.1366.738" timestamp="1581081329606" />
     <state width="1326" height="168" key="GridCell.Tab.1.left/0.0.1366.738/1366.0.1536.834@1366.0.1536.834" timestamp="1580989011830" />
-    <state width="1214" height="171" key="GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738" timestamp="1580757233280" />
-    <state width="1326" height="168" key="GridCell.Tab.1.right" timestamp="1580989011830">
-      <screen x="1366" y="0" width="1536" height="834" />
+    <state width="1172" height="121" key="GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738" timestamp="1581078950192" />
+    <state width="1172" height="178" key="GridCell.Tab.1.right" timestamp="1581081329606">
+      <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1172" height="286" key="GridCell.Tab.1.right/0.0.1366.738/1366.0.1536.834@0.0.1366.738" timestamp="1580906633555" />
+    <state width="1172" height="178" key="GridCell.Tab.1.right/0.0.1366.738/1366.0.1536.834@0.0.1366.738" timestamp="1581081329606" />
     <state width="1326" height="168" key="GridCell.Tab.1.right/0.0.1366.738/1366.0.1536.834@1366.0.1536.834" timestamp="1580989011830" />
-    <state width="1214" height="171" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1580757233280" />
+    <state width="1172" height="121" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1581078950192" />
     <state width="1326" height="319" key="GridCell.Tab.2.bottom" timestamp="1580844765684">
       <screen x="1366" y="0" width="1536" height="834" />
     </state>
@@ -306,24 +350,24 @@
     </state>
     <state width="1214" height="225" key="GridCell.Tab.2.right/0.0.1366.738/1366.0.1536.834@0.0.1366.738" timestamp="1580814975370" />
     <state width="1326" height="319" key="GridCell.Tab.2.right/0.0.1366.738/1366.0.1536.834@1366.0.1536.834" timestamp="1580844765684" />
-    <state x="213" y="25" key="Maven.ArtifactSearchDialog" timestamp="1580550799644">
+    <state x="213" y="25" key="Maven.ArtifactSearchDialog" timestamp="1580998697078">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="213" y="25" key="Maven.ArtifactSearchDialog/0.0.1366.738/1366.0.1536.834@0.0.1366.738" timestamp="1580550799644" />
+    <state x="213" y="25" key="Maven.ArtifactSearchDialog/0.0.1366.738/1366.0.1536.834@0.0.1366.738" timestamp="1580998697078" />
     <state x="246" y="0" key="SettingsEditor" timestamp="1580496464859">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="246" y="0" key="SettingsEditor/0.0.1366.738/1366.0.1536.834@0.0.1366.738" timestamp="1580496464859" />
     <state x="1643" y="0" key="SettingsEditor/0.0.1366.738/1366.0.1536.834@1366.0.1536.834" timestamp="1580219784115" />
-    <state x="379" y="195" width="607" height="349" key="com.intellij.ide.util.TipDialog" timestamp="1580982618218">
+    <state x="379" y="195" width="607" height="349" key="com.intellij.ide.util.TipDialog" timestamp="1581078514685">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="379" y="194" key="com.intellij.ide.util.TipDialog/0.0.1366.738/1366.0.1536.834@0.0.1366.738" timestamp="1580637714660" />
-    <state x="379" y="195" width="607" height="349" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1580982618218" />
-    <state x="454" y="73" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1580997182506">
+    <state x="379" y="195" width="607" height="349" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1581078514685" />
+    <state x="454" y="73" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1580998486501">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="454" y="73" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.738/1366.0.1536.834@0.0.1366.738" timestamp="1580997182506" />
+    <state x="454" y="73" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.738/1366.0.1536.834@0.0.1366.738" timestamp="1580998486501" />
     <state x="1388" y="-13" width="1200" height="587" maximized="true" key="dock-window-1" timestamp="1580899791376">
       <screen x="1366" y="0" width="1536" height="834" />
     </state>

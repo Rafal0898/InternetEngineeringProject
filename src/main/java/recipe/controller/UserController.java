@@ -80,6 +80,9 @@ public class UserController {
             Map<String, String> bodyContent = (Map<String, String>) parser.parse();
             String username = bodyContent.get("username");
             String password = bodyContent.get("password");
+            if(username == null || password == null){
+                return new ResponseEntity<>(Responses.INVALID_VALUE, HttpStatus.BAD_REQUEST);
+            }
             User user = userRepository.getUserByUsername(username);
             if (user != null) {
                 return new ResponseEntity<>(Responses.ALREADY_EXIST, HttpStatus.CONFLICT);

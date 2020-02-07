@@ -17,6 +17,7 @@ public class JsonWebTokenUtils {
                 .setSubject(user.getUsername())
                 .claim("id", user.getUser_id())
                 .setIssuedAt(new Date(currentTime))
+                .signWith(SignatureAlgorithm.HS512, "someSecretKey")
                 .compact();
     }
 }
